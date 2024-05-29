@@ -274,7 +274,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #063e76;}
 /*.single-about-img */
 .single-about-img {
     display: inline-block;
-    margin-right: 10px;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    bottom: 0;
 }
 /* .single-about-img img {
     max-width: 400px;
