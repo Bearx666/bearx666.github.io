@@ -239,7 +239,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #063e76;}
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#3c00ff;border: 1px solid #50047f;}
+.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#3c00ff;border: 1px solid #061af8;}
 /*.header-text-area*/
 
 /*-------------------------------------
