@@ -272,11 +272,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #063e76;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-
-.single-about-img img {
+.single-about-img {
+    display: inline-block;
+    margin-right: 10px;
+}
+/* .single-about-img img {
     max-width: 400px;
     height: 468px;
-}
+} */
 .about-list-icon{
     display: flex;
     justify-content: center;
