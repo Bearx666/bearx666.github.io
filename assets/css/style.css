@@ -455,7 +455,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-weight: 300;
     color: #636a82;
     margin-top: 14px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 /*experience-time*/
 
