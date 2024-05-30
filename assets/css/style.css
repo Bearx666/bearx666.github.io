@@ -59,7 +59,7 @@ h1,h2,h3,h4,h5,h6 {
 	color:#43485c;
     font-size: 16px;
 	font-family: 'Poppins', sans-serif;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 }
 p {
 	margin: 0;
@@ -274,10 +274,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #063e76;}
 /*.single-about-img */
 .single-about-img {
     display: inline-block;
-    bottom: 0;
-    left: 20px;
-    right: 0;
-    bottom: 10px;
+    margin-left: 200px;
+    max-width: 220px;
+    height: 300px;
 }
 /* .single-about-img img {
     max-width: 400px;
@@ -359,7 +358,7 @@ span.single-timeline-horizontal {
     height:  1px;
     width: 380px;
 }
-span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
+span.single-timeline-horizontal.spacial-horizontal-line {width: 300px;}
 /*.timeline-horizontal-border*/
 
 /*.education-horizontal-timeline*/
@@ -367,11 +366,15 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills {
-    
+.progressText{
+    display: inline-block;
+    margin: 5px;
+    line-height: 2; 
+    font-size: 16px; 
 }
+
 .skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 100px;}
+.single-skill-content{padding-top: 50px;}
 .section-heading h2 {
     font-size: 24px;
     font-weight: 600;
@@ -455,7 +458,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-weight: 300;
     color: #636a82;
     margin-top: 14px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 /*experience-time*/
 
@@ -487,7 +490,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .timeline-content h4.title {
     font-size: 16px;
     font-weight: 400;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .timeline-content h5 {
     color: #636a82;
@@ -758,6 +761,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     text-transform: capitalize;
     color:  #636a82;
     font-weight:  300;
+    margin-top:  6px;
+}
+
+.web-link {
+    font-weight:  300;
+    color: #999fb3;
     margin-top:  6px;
 }
 /* contact-adress */
