@@ -338,7 +338,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #063e76;}
 
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
-.single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
+.single-horizontal-timeline .timeline-content h5 {margin: 15px 0px;}
 .single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
 
 /*.timeline-horizontal-border*/
@@ -480,6 +480,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 300px;}
     position: relative;
 }
 
+.timeline{
+    margin-top: 14px;
+    /* margin-right: 20px; */
+}
+
 .timeline-content span>i, .experience-time span>i {
     color: #063e76;
     position: absolute;
@@ -488,10 +493,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 300px;}
     z-index: 1;
 }
 .timeline-content h4.title {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     /* text-transform: uppercase; */
 }
+
+
 .timeline-content h5 {
     color: #636a82;
     font-size: 14px;
